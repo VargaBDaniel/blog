@@ -1,0 +1,72 @@
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  font-weight: lighter;
+}
+
+* body {
+  width: 100vw;
+  background-color: #F5F5F5;
+  color: #792927;
+}
+
+* body .nav-bar {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(229, 229, 229, 0.9);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* body .nav-bar .wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* body .nav-bar .wrapper .button {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+* body .nav-bar .wrapper .button h2 {
+  padding: 0 15px;
+  font-size: 35px;
+}
+
+* body .nav-bar .wrapper .button.active {
+  -webkit-box-shadow: inset 0px -10px 0px 0px #792927;
+          box-shadow: inset 0px -10px 0px 0px #792927;
+}
+
+* body .nav-bar .wrapper .button:not(.active) {
+  cursor: pointer;
+}
+
+* body .nav-bar .wrapper .button:not(.active):hover {
+  -webkit-box-shadow: inset 0px -30px 10px -20px #792927;
+          box-shadow: inset 0px -30px 10px -20px #792927;
+}
+/*# sourceMappingURL=index.css.map */
