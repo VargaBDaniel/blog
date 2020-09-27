@@ -1,0 +1,23 @@
+#contentContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 100px;
+  overflow-y: visible;
+}
+
+#contentContainer #HTMLwrapper {
+  width: 1080px;
+  height: 10000px;
+}
+
+#contentContainer #HTMLwrapper div.title {
+  width: 100%;
+  padding-top: 40px;
+  border-bottom: 3px solid #792927;
+}
+/*# sourceMappingURL=misc.css.map */

@@ -1,0 +1,27 @@
+$main-color: #F5F5F5;
+$main-color-variant: #FFFFFF;
+$accent-color: #792927;
+
+#contentContainer {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 100px;
+
+    overflow-y: visible;
+
+    #HTMLwrapper {
+        width: 1080px;
+        height: 10000px;
+
+        div.title {
+            width: 100%;
+
+            padding-top: 40px;
+
+            border-bottom: 3px solid $accent-color;
+        }
+    }
+}
